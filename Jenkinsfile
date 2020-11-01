@@ -1,4 +1,5 @@
 pipeline {
+    agent { dockerfile true }
     stages {
         stage('Deploy Patient App') {
             steps {
